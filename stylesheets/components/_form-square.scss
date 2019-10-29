@@ -1,0 +1,23 @@
+
+.form-square{
+    background-color: theme-color(main-lighter);
+
+    &.form-square-icon{
+        padding-left: 60px;
+        position: relative;
+    }
+
+    .form-input{
+        border:none;
+        background-color: transparent;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        outline: none;
+    }
+
+    .form-square-icon-move{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+}

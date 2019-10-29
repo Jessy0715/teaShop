@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>好茶 Tea Shop - 好茶飲系列</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="stylesheets/all.css">
+</head>
+
+<body>
+
+    <!-- -------------------------------------navbar ---------------------------------------------->
+    <nav class="navbar navbar-expand-md navbar-light bg-white">
+        <div class="container">
+            <button class="navbar-toggler d-md-none" type="button" data-toggle="collapse"
+                data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">
+                <img class=" d-none d-md-inline-block" src="images2/lg-logo.svg" width="130" alt="logo">
+                <img class="d-inline-block d-md-none" src="images2/sm-logo.svg" width="150" alt="logo_sm">
+            </a>
+            <a href="carts.html" class="d-flex order-md-1 nav-link text-main">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-main" href="index.html">關於好茶 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-main" href="products.html">好茶飲系列</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-main" href="register.html">登入</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- -------------------------------------header ---------------------------------------------->
+
+    <div class="container px-0 px-md-3">
+        <header class="header">
+            <div class="header__img bg-cover" style="background-image: url(images2/img10.jpg)">
+            </div>
+            <h1 class="text-hide">
+                喝好茶取決於喝茶的時機
+                <img src="images2/lg-喝好茶取決於喝茶的時機.svg" class="header__img__context" width="120" alt="">
+            </h1>
+        </header>
+    </div>
+
+    <!-- -------------------------------------list group-left ---------------------------------------------->
+
+    <section class="container my-6">
+        <div class="row">
+            <div class="col-md-4">
+                <h2 class="mb-0 py-3 text-white bg-main text-center h4">甜點類別</h2>
+                <div class="list-group text-center">
+                    <a href="#pane-1" data-toggle="list" class="list-group-item list-group-item-action h4 active">
+                        所有茶品（48）
+                    </a>
+                    <a href="#pane-2" data-toggle="list" class="list-group-item list-group-item-action h4 ">本日精選（10）</a>
+                    <a href="#pane-3" data-toggle="list" class="list-group-item list-group-item-action h4">人氣推薦（26）</a>
+                    <a href="#" class="list-group-item list-group-item-action h4 disabled" tabindex="-1"
+                        aria-disabled="true">絕版品</a>
+                </div>
+            </div>
+            <!-- -------------------------------------list group-right ---------------------------------------------->
+            <div class="col-md-8">
+                <div class="tab-content">
+                    <div class="tab-pane active" id="pane-1">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="item__card mb-4 text-main">
+                                    <div class="item__img" style="background-image: url(images2/img05.jpg)">
+                                        <div class="item__tag">本日精選</div>
+                                    </div>
+                                    <div class="item__body d-flex text-center">
+                                        <div class="item__name col">
+                                            有機柑橘茶
+                                        </div>
+                                        <strong class="item__price col">
+                                            NT$ 220
+                                        </strong>
+                                    </div>
+                                    <a href="#editModal" data-title="有機柑橘茶" data-toggle="modal"
+                                        class="text-main btn btn-lg btn-main-lighter btn-block">加入購物車</a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="item__card mb-4 text-main">
+                                    <div class="item__img" style="background-image: url(images2/img21.jpg)">
+                                        <div class="item__tag">本日精選</div>
+                                    </div>
+                                    <div class="item__body d-flex text-center">
+                                        <div class="item__name col">
+                                            薄荷紅茶
+                                        </div>
+                                        <strong class="item__price col">
+                                            NT$ 150
+                                        </strong>
+                                    </div>
+                                    <a href="#editModal" data-title="薄荷紅茶" data-toggle="modal"
+                                        class="text-main btn btn-lg btn-main-lighter btn-block">加入購物車</a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="item__card mb-4 text-main">
+                                    <div class="item__img" style="background-image: url(images2/img08.jpg)">
+                                        <div class="item__tag">本日精選</div>
+                                    </div>
+                                    <div class="item__body d-flex text-center">
+                                        <div class="item__name col">
+                                            金鑽檸檬青
+                                        </div>
+                                        <strong class="item__price col">
+                                            NT$ 200
+                                        </strong>
+                                    </div>
+                                    <a href="#editModal" data-title="金鑽檸檬青" data-toggle="modal"
+                                        class="text-main btn btn-lg btn-main-lighter btn-block">加入購物車</a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="item__card mb-4 text-main">
+                                    <div class="item__img" style="background-image: url(images2/img07.jpg)">
+                                        <div class="item__tag">本日精選</div>
+                                    </div>
+                                    <div class="item__body d-flex text-center">
+                                        <div class="item__name col">
+                                            金鋒洛神花茶
+                                        </div>
+                                        <strong class="item__price col">
+                                            NT$ 180
+                                        </strong>
+                                    </div>
+                                    <a href="#editModal" data-title="金鋒洛神花茶" data-toggle="modal"
+                                        class="text-main btn btn-lg btn-main-lighter btn-block">加入購物車</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane" id="pane-2">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="item__card mb-4 text-main">
+                                    <div class="item__img" style="background-image: url(images2/img24.jpg)">
+                                        <div class="item__tag">本日精選</div>
+                                    </div>
+                                    <div class="item__body d-flex text-center">
+                                        <div class="item__name col">
+                                            百香柑橘茶
+                                        </div>
+                                        <strong class="item__price col">
+                                            NT$ 270
+                                        </strong>
+                                    </div>
+                                    <a href="#editModal" data-title="百香柑橘茶" data-toggle="modal"
+                                        class="text-main btn btn-lg btn-main-lighter btn-block">加入購物車</a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="item__card mb-4 text-main">
+                                    <div class="item__img" style="background-image: url(images2/img26.jpg)">
+                                        <div class="item__tag">本日精選</div>
+                                    </div>
+                                    <div class="item__body d-flex text-center">
+                                        <div class="item__name col">
+                                            甜蜜蜜水果紅茶
+                                        </div>
+                                        <strong class="item__price col">
+                                            NT$ 300
+                                        </strong>
+                                    </div>
+                                    <a href="#editModal" data-title="甜蜜蜜水果紅茶" data-toggle="modal"
+                                        class="text-main btn btn-lg btn-main-lighter btn-block">加入購物車</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane" id="pane-3">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="item__card mb-4 text-main">
+                                    <div class="item__img" style="background-image: url(images2/img25.jpg)">
+                                        <div class="item__tag">本日精選</div>
+                                    </div>
+                                    <div class="item__body d-flex text-center">
+                                        <div class="item__name col">
+                                            綜合水果茶
+                                        </div>
+                                        <strong class="item__price col">
+                                            NT$ 400
+                                        </strong>
+                                    </div>
+                                    <a href="#editModal" data-title="綜合水果茶" data-toggle="modal"
+                                        class="text-main btn btn-lg btn-main-lighter btn-block">加入購物車</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ------------------------------------- section:add it ---------------------------------------------->
+
+    <section class="section">
+        <div class="section__img bg-cover text-white mt-5"
+            style="background-image: url(images2/img04.jpg);background-attachment: fixed;">
+            <div class="d-flex flex-column text-center mb-3 py-3 align-items-center">
+                <div class="w-25">
+                    <img class="p-2" src="images2/simple-logo-white.svg" height="70" alt="">
+                    <div class="p-2 section__decoration h5">Tea Shop</div>
+                </div>
+                <div class="p-2 h5">
+                    <p>Decorate with a smile every day.</p>
+                    <p>Flavored with tea for a living.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------------------------------------section_5 ---------------------------------------------->
+    <div class="py-5 bg-main mt-8">
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col-md-5 d-flex align-items-center justify-content-center">
+                    <div class="mt-2 mr-2">
+                        <i class="fa fa-bookmark-o fa-2x text-white" aria-hidden="true"></i>
+                    </div>
+                    <span class="text-white h4 mb-0 mx-3">歡迎訂閱好茶</span>
+                </div>
+                <div class="col-md-5 mt-4 mt-md-0">
+                    <div class="form-square form-square-icon d-flex justify-content-between">
+                        <label for="subscription" class="fa fa-envelope fa-lg form-square-icon-move text-main"
+                            aria-hidden="true"></label>
+                        <input type="email" id="subscription" class="form-input">
+                        <button class="btn btn-accent btn-lg d-flex align-items-center">
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------------------------footer ---------------------------------------------->
+
+    <footer class="py-5 bg-main-lighter">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex justify-content-center mb-2">
+                        <a class="text-main mr-3 h5">請關注我們</a>
+                        <a href="#" class="ml-4 text-main"><i class="fa fa-facebook-square fa-lg"
+                                aria-hidden="true"></i></a>
+                        <a href="#" class="ml-4 text-main"><i class="fa fa-pinterest-square fa-lg"
+                                aria-hidden="true"></i></a>
+                        <a href="#" class="ml-4 text-main"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="w-100 border border-bottom-1"></div>
+                <div class="col-12">
+                    <div class="d-flex justify-content-center">
+                        <div class="mt-5">
+                            <img class=" d-none d-md-inline-block" src="images2/lg-logo.svg" height="70" alt="logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 text-center text-main mt-6">
+                    <p>新北市板橋區<br>
+                        新北大道雙十路2段30巷10弄8號<br>
+                        Tel. +886-4-2206-5533 / Fax. +886-4-2206-0889</p>
+                </div>
+                <div class="col-12 text-center text-main mt-4">
+                    <div class="d-flex justify-content-center">
+                        <a href="index.html" class="ml-4 text-main">關於好茶</a>
+                        <a href="products.html" class="ml-4 text-main">好茶飲系列</a>
+                        <a href="register.html" class="ml-4 text-main">登入</a>
+                        <a href="carts.html" class="ml-4 text-main">購物車</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-main text-white">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput">用戶姓名</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput"
+                                placeholder="">
+                        </div>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput2">Email</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput2"
+                                placeholder="">
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <label for="formGroupExampleInput">品項</label>
+                                <input type="text" class="form-control" placeholder="">
+                            </div>
+                            <div class="col">
+                                <label for="formGroupExampleInput">*數量</label>
+                                <input type="text" class="form-control" placeholder="">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+                    <button type="button" class="btn btn-outline-main">確定</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script>
+        $('#editModal').on('show.bs.modal', function (event) {
+            var btn = $(event.relatedTarget);
+            var title = btn.data('title')
+            var modal = $(this);
+            modal.find('.modal-title').text('快速下單 : '+ title);
+
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+
+.icon__display{
+    cursor: pointer;
+    
+    .icon--show, .icon__checkbox{
+        display: none;
+    }
+    .icon__checkbox:checked{
+        & ~ .icon--show{
+            display: block;
+        }
+        
+        & ~ .icon--hidden{
+            display: none;
+        }
+    }
+}

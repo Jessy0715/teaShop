@@ -1,0 +1,47 @@
+.item__card{
+    display: flex;
+    flex-direction: column;
+
+    .item__img{
+        position: relative;
+        height: 315px;
+        background-size: cover;
+        background-position: center center;
+
+        .item__tag{
+            position: absolute;
+            top: 0;
+            left: 20px;
+            background-color: theme-color(main);
+            color: #fff;
+            writing-mode:vertical-lr;
+            letter-spacing: 5px;
+            padding: 10px 10px;
+        }
+
+        .item__icon{
+            position: absolute;
+            top: 20px;
+            right: 25px;
+        }
+    }
+
+    .item__body{
+        border: 1px solid theme-color(main-lighter);
+    }
+
+    .item__name, .item__price{
+        padding-top: 14px;
+        padding-bottom: 14px;
+        font-size: $font-size-lg;
+    }
+
+    .item__name{
+        border-right:1px solid #EAF0ED;
+    }
+
+   
+
+    
+
+}

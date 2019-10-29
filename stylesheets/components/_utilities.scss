@@ -1,0 +1,29 @@
+
+
+.bg-cover {
+    background-size: cover;
+    background-position: center center;
+}
+
+.sides{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.zindex--1{
+    z-index: -1;
+}
+
+//size
+.text-base-size{
+    font-size: 1rem;
+}
+
+//spacing
+.negative-margin{
+    margin-left: -15px;
+    margin-right: -15px;
+}

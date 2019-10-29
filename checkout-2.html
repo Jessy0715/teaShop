@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>好茶 Tea Shop - 結帳</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="stylesheets/all.css">
+</head>
+
+<body>
+    <!-- -------------------------------------navbar ---------------------------------------------->
+    <nav class="navbar navbar-expand-md navbar-light bg-white">
+        <div class="container">
+            <button class="navbar-toggler d-md-none" type="button" data-toggle="collapse"
+                data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">
+                <img class=" d-none d-md-inline-block" src="images2/lg-logo.svg" width="130" alt="logo">
+                <img class="d-inline-block d-md-none" src="images2/sm-logo.svg" width="150" alt="logo_sm">
+            </a>
+            <a href="carts.html" class="d-flex order-md-1 nav-link text-main">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-main" href="index.html">關於好茶 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-main" href="products.html">好茶飲系列</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-main" href="register.html">登入</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- -------------------------------------checkout-2 ---------------------------------------------->
+    <section class="container my-lg-6">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="negative-margin mx-lg-0">
+                    <div class="p-5 bg-main text-main-lighter">
+                        <div class="form-row mb-5">
+                            <div class="col-6">
+                                <h1 class="h1">發票</h1>
+                            </div>
+                            <div class="col-6 d-flex align-items-center">
+                                <div class="process-steps w-100">
+                                    <div class="step-circle completed fa fa-check"></div>
+                                    <div class="step-circle completed fa fa-check"></div>
+                                    <div class="step-circle active"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <nav class="nav nav-pills nav-fill nav-dark mb-5 d-flex justify-content-center">
+                            <a href="#" class="nav-item nav-link h4 py-3 active">電子發票</a>
+                            <a href="#" class="nav-item nav-link h4 py-3">郵寄發票</a>
+                        </nav>
+                        <div class="form-group">
+                            <label class="h4" for="email">電子郵件信箱</label>
+                            <input type="email" class="form-control form-control-lg bg-main-lighter" id="email"
+                                placeholder="">
+                        </div>
+                        <div class="form-group">
+                            <label class="h4" for="vat-number">統一編號 ( 選填 )</label>
+                            <input type="text" class="form-control form-control-lg bg-main-lighter" id="vat-number"
+                                placeholder="">
+                        </div>
+                    </div>
+                </div>
+                <div class="negative-margin mx-lg-0">
+                    <a href="success.html" class="btn btn-accent btn-block btn-lg text-main py-3">下一步</a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 d-none d-lg-block">
+                <div class="card border-main-lighter mb-4">
+                    <h2 class="card-header bg-main-lighter text-center text-main-light rounded-0">
+                        訂單摘要</h2>
+                    <div class="card-body text-main-light">
+                        <div class="d-flex justify-content-between mb-2">
+                            <span>小計</span>
+                            <span>NT$ 840</span>
+                        </div>
+                        <div class="d-flex justify-content-between mb-2">
+                            <span>運費</span>
+                            <span>NT$ 160</span>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <span class="h5">總計</span>
+                            <span class="h5">NT$ 1,000</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card border-main-lighter">
+                    <h2 class="card-header bg-main-lighter text-center text-main-light rounded-0">
+                        購物清單</h2>
+                    <div class="card-body carts">
+                        <div class="d-flex">
+                            <div class="carts__img carts__img-sm mr-3" style="background-image: url(images2/img11.jpg)">
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="flex-fill mr-lg-4 text-main-light">
+                                    <span class="h5">風味紅茶 (2)</span><br />
+                                    <span>NT$ 240</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex mt-3">
+                            <div class="carts__img carts__img-sm mr-3" style="background-image: url(images2/img08.jpg)">
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="flex-fill mr-lg-4 text-main-light">
+                                    <span class="h5">金鑽檸檬青 (3)</span><br />
+                                    <span>NT$ 600</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- -------------------------------------section_5 ---------------------------------------------->
+    <div class="py-5 bg-main">
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col-md-5 d-flex align-items-center justify-content-center">
+                    <div class="mt-2 mr-2">
+                        <i class="fa fa-bookmark-o fa-2x text-white" aria-hidden="true"></i>
+                    </div>
+                    <span class="text-white h4 mb-0 mx-3">歡迎訂閱好茶</span>
+                </div>
+                <div class="col-md-5 mt-4 mt-md-0">
+                    <div class="form-square form-square-icon d-flex justify-content-between">
+                        <label for="subscription" class="fa fa-envelope fa-lg form-square-icon-move text-main"
+                            aria-hidden="true"></label>
+                        <input type="email" id="subscription" class="form-input">
+                        <button class="btn btn-accent btn-lg d-flex align-items-center">
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------------------------footer ---------------------------------------------->
+
+    <footer class="py-5 bg-main-lighter">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex justify-content-center mb-2">
+                        <a class="text-main mr-3 h5">請關注我們</a>
+                        <a href="#" class="ml-4 text-main"><i class="fa fa-facebook-square fa-lg"
+                                aria-hidden="true"></i></a>
+                        <a href="#" class="ml-4 text-main"><i class="fa fa-pinterest-square fa-lg"
+                                aria-hidden="true"></i></a>
+                        <a href="#" class="ml-4 text-main"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="w-100 border border-bottom-1"></div>
+                <div class="col-12">
+                    <div class="d-flex justify-content-center">
+                        <div class="mt-5">
+                            <img class=" d-none d-md-inline-block" src="images2/lg-logo.svg" height="70" alt="logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 text-center text-main mt-6">
+                    <p>新北市板橋區<br>
+                        新北大道雙十路2段30巷10弄8號<br>
+                        Tel. +886-4-2206-5533 / Fax. +886-4-2206-0889</p>
+                </div>
+                <div class="col-12 text-center text-main mt-4">
+                    <div class="d-flex justify-content-center">
+                        <a href="index.html" class="ml-4 text-main">關於好茶</a>
+                        <a href="products.html" class="ml-4 text-main">好茶飲系列</a>
+                        <a href="register.html" class="ml-4 text-main">登入</a>
+                        <a href="carts.html" class="ml-4 text-main">購物車</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

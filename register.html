@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>好茶 Tea Shop - 登入</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="stylesheets/all.css">
+</head>
+
+
+<body>
+    <!-- -------------------------------------navbar ---------------------------------------------->
+    <nav class="navbar navbar-expand-md navbar-light bg-white">
+        <div class="container">
+            <button class="navbar-toggler d-md-none" type="button" data-toggle="collapse"
+                data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">
+                <img class=" d-none d-md-inline-block" src="images2/lg-logo.svg" width="130" alt="logo">
+                <img class="d-inline-block d-md-none" src="images2/sm-logo.svg" width="150" alt="logo_sm">
+            </a>
+            <a href="carts.html" class="d-flex order-md-1 nav-link text-main">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-main" href="index.html">關於好茶 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-main" href="products.html">好茶飲系列</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-main" href="register.html">登入</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- -------------------------------------section_register --------------------------------------->
+
+    <section class="container px-0 px-md-3 my-md-6">
+        <div class="row justify-content-center no-gutters">
+            <div class="col-md-10">
+                <div class="py-5 bg-main d-md-none">
+                    <h1 class="mt-2 mb-2 text-white text-center">會員登入</h1>
+                </div>
+                <div class="row no-gutters flex-md-row-reverse">
+                    <div class="col-md-6 py-md-3">
+                        <div class="p-5 bg-main-lighter">
+                            <h2 class="h4 text-center text-main-light d-none d-md-block">—— 連結社群帳號 ——</h2>
+                            <div class="row no-gutters mt-md-4">
+                                <div class="col-4 col-md-12 mb-md-4">
+                                    <button class="btn btn-block btn-lg btn-brand-light py-3 h-100">
+                                        <img src="images2/ic-facebook-logotype.svg" class="img-fluid" width="108"
+                                            alt="">
+                                    </button>
+                                </div>
+                                <div class="col-4 col-md-12 mb-md-4">
+                                    <button class="btn btn-block btn-lg btn-brand-light py-3 h-100">
+                                        <img src="images2/ic-google.svg" class="img-fluid" width="94" alt="">
+                                    </button>
+                                </div>
+                                <div class="col-4 col-md-12 mb-md-4">
+                                    <button class="btn btn-block btn-lg btn-brand-light py-3 h-100">
+                                        <img src="images2/ic-yahoo.svg" class="img-fluid" width="97" alt="">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="py-5 bg-main d-none d-md-block">
+                            <h1 class="mt-2 mb-2 text-white text-center">會員登入</h1>
+                        </div>
+                        <div class="p-5 pt-md-0 bg-main">
+                            <div class="form-square text-main form-square-icon mb-3 d-flex justify-content-between">
+                                <label for="username" class="fa fa-user form-square-icon-move"
+                                    aria-hidden="true"></label>
+                                <input type="text" id="username" class="form-input w-100" placeholder="電子信箱/手機號碼">
+                            </div>
+                            <div class="form-square text-main form-square-icon mb-3 d-flex justify-content-between">
+                                <label for="password" class="fa fa-key form-square-icon-move"
+                                    aria-hidden="true"></label>
+                                <input type="password" id="password" class="form-input w-100" placeholder="請輸入使用者密碼">
+                            </div>
+                            <div class="custom-control custom-checkbox mb-0">
+                                <input class="custom-control-input" type="checkbox" id="rememberme">
+                                <label class="custom-control-label text-white ml-3" for="rememberme">記住我</label>
+                            </div>
+                        </div>
+                        <button class="btn btn-block bg-accent py-3 text-main rounded-0">登入帳號</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------------------------------------section_5 ---------------------------------------------->
+    <div class="py-5 bg-main">
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col-md-5 d-flex align-items-center justify-content-center">
+                    <div class="mt-2 mr-2">
+                        <i class="fa fa-bookmark-o fa-2x text-white" aria-hidden="true"></i>
+                    </div>                    
+                    <span class="text-white h4 mb-0 mx-3">歡迎訂閱好茶</span>
+                </div>
+                <div class="col-md-5 mt-4 mt-md-0">
+                    <div class="form-square form-square-icon d-flex justify-content-between">
+                        <label for="subscription" class="fa fa-envelope fa-lg form-square-icon-move text-main"
+                            aria-hidden="true"></label>
+                        <input type="email" id="subscription" class="form-input">
+                        <button class="btn btn-accent btn-lg d-flex align-items-center">
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------------------------footer ---------------------------------------------->
+
+    <footer class="py-5 bg-main-lighter">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex justify-content-center mb-2">
+                        <a class="text-main mr-3 h5">請關注我們</a>
+                        <a href="#" class="ml-4 text-main"><i class="fa fa-facebook-square fa-lg"
+                                aria-hidden="true"></i></a>
+                        <a href="#" class="ml-4 text-main"><i class="fa fa-pinterest-square fa-lg"
+                                aria-hidden="true"></i></a>
+                        <a href="#" class="ml-4 text-main"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="w-100 border border-bottom-1"></div>
+                <div class="col-12">
+                    <div class="d-flex justify-content-center">
+                        <div class="mt-5">
+                            <img class=" d-none d-md-inline-block" src="images2/lg-logo.svg" height="70" alt="logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 text-center text-main mt-6">
+                    <p>新北市板橋區<br>
+                        新北大道雙十路2段30巷10弄8號<br>
+                        Tel. +886-4-2206-5533 / Fax. +886-4-2206-0889</p>
+                </div>
+                <div class="col-12 text-center text-main mt-4">
+                    <div class="d-flex justify-content-center">
+                        <a href="index.html" class="ml-4 text-main">關於好茶</a>
+                        <a href="products.html" class="ml-4 text-main">好茶飲系列</a>
+                        <a href="register.html" class="ml-4 text-main">登入</a>
+                        <a href="carts.html" class="ml-4 text-main">購物車</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

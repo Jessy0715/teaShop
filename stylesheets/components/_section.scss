@@ -1,0 +1,43 @@
+
+.section{
+
+    .section__img{
+        min-height:250px;
+        @include media-breakpoint-down(md) {
+          margin-left: -15px;
+          margin-right: -15px;
+        }
+    }
+
+   .vertical-content{
+    max-height: 420px;
+    line-height: 2;
+    @include media-breakpoint-up(md){
+        line-height: 2.5;
+    }
+   }
+
+    .break-vertical-block{
+        @include media-breakpoint-up(md){
+            margin-top: -50px;
+            margin-bottom: -24px;
+        }
+    }
+    
+    .writing-vertical{
+        @include media-breakpoint-up(md) {
+        writing-mode: vertical-rl;
+        }
+    }
+
+    .section__decoration:after{
+        content: "";
+        display: block;
+        margin: 20px 0;
+        width: 100%;
+        height: 2px;
+        border-bottom: 4px double #FFF;
+    }
+
+   
+}
