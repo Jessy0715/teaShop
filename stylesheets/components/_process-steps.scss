@@ -11,7 +11,7 @@
         border-radius: $circle-size;
         position: relative;
         background-color: theme-color('main');
-        border: 1px solid #8DA291;
+        border: 1px solid theme-color('main-lighter');
         z-index: 1;
         display: flex;
         justify-content: center;
@@ -25,7 +25,7 @@
         top: 50%;
         left: 0;
         right: 0;
-        background-color: theme-color('main-light');
+        background-color: theme-color('main-lighter');
     } 
     
     .step-circle.active{

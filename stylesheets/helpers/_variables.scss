@@ -79,11 +79,10 @@ $theme-colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
 $theme-colors: map-merge(
   (
-    "main":       #4C5125,//#3F5D45,
-    "accent":     #EFFC90,//#FFE180,
-    "main-lighter":     #EAF0ED,
-    "main-light":      #8DA291,
-    "teaLogo":     #677A30,
+    "main":       #654327,
+    "accent":     #F9F9BB,
+    "main-lighter":     #c6beb0,
+    "main-light":      #4C5125,
     "primary":    $primary,
     "secondary":  $secondary,
     "success":    $success,

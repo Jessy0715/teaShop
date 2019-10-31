@@ -34,6 +34,12 @@
 }
 
 footer{
-    background: url(../../images2/leaf.png) right -50px bottom -90px no-repeat,
-                url(../../images2/leaf.png) left -80px top -40px no-repeat;
+    background: url(images2/leaf.png) right -50px bottom -90px no-repeat,
+                url(images2/leaf.png) left -80px top -40px no-repeat;
+    .text-black{
+        color:#212529;
+    }
+    &.bg-footerColor{
+        background-color: #FCF4F0;
+    }
 }
